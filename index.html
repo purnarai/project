@@ -21,9 +21,18 @@
         .image-1{
             background-image: url("photo.jpg");
             background-repeat: repeat-x;
+        }
+        .button{
+            color: white;
+         padding: 14px 28px;
+         font-size: 16px;
+         border-radius: 15px;
+         background-color: #2196F3;
+         text-align: center;
+        }
                 
-        }
-        }
+        
+               
          
 
     </style>
@@ -55,8 +64,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Pricing</a>
                 </li>
-                <li class="dropdown">
-                    <a class="dropdown-content" href="#">Drop Down</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    
                 </li>
                 <li class="nav-item">
                     <a class ="nav-link" href="#"> Contact</a>
@@ -73,24 +90,33 @@
             </div>
             <div class="row">
                 <div class="col-md-6 bg-light">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                 <h3> Grow Your Business With Vesperr</h3>
                 <p>We are team of talented designers making websites with Bootstrap</p>
+                <button class="button">Get Started</button>
                 </div>
 
-                <div class="col-md-6 bg-light">
-                    <p class="image-1"></p>
+                <div class="col-md-6 background-image">
+                    ​<picture>
+                        <source srcset="..." type="image">
+                        <img src="photo.jpg" class="image-1" alt="...">
+                      </picture>
                     </div>
             </div>
-               
+
             <div class="row">
-                <div class="col-md-1 bg-light"> </div>
-                                
-                </div>
-                
-          
+                <div class="col-md-1 bg-danger">
+
+             </div>
+              
+                     
         </div>
 
     </div>
-   
+    
 </body>
 </html>
